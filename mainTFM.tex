@@ -1,0 +1,30 @@
+\documentclass[12pt,a4paper, twoside]{article}
+\input{./chapters/paquetesTFM.tex}
+\begin{document}
+%\linenumbers
+\input{./chapters/titlepage}
+
+\input{./chapters/abstract}
+\newpage
+\tableofcontents
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%
+\section{Introduction}  \label{sec:ch01}
+\input{./chapters/chapter01}
+\section{Theoretical framework: The \boldmath$Wtb$ vertex and top quark polarisation} \label{sec:ch02}
+\input{./chapters/chapter02}
+\section{The ATLAS experiment} \label{sec:ch03}
+\input{./chapters/chapter03}
+\section{Analysis tools} \label{sec:ch04}
+\input{./chapters/chapter04}
+\section{Conclusion} \label{sec:conclusions}
+\input{./chapters/conclusion}
+\appendix
+\section{Correlations among the selection variables and the polarisation angles} \label{sec:AppendixA}
+\input{./chapters/appendix}
+\newpage
+\bibliographystyle{./referencias/atlasBibStyleWithTitle} 
+%\nocite{*}
+\bibliography{./referencias/biblio}
+\end{document}
+

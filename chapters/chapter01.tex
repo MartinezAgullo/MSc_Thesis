@@ -1,0 +1,43 @@
+% Intro - Versión 1:The Standard Model (SM) of Particle Physics is a quantum field theory that describes the behaviour of the fundamental particles. Developed in the early 1970s, it contains our best understanding of how these particles and three of the four forces\footnote{The fundamental forces are: Electromagnetism, Weak interactions and Strong Interactions and Gravity. The later is not included in the SM.} are related to each other. Its experimental robustness has been well tested because it explains almost all experimental results and had precisely predicted a wide variety of phenomena. Nevertheless, there are some open questions in Particle Physics that cannot be answered in the context of SM. For instance; it does not incorporate gravity, do not explain what dark matter is, what happened to the antimatter after the big bang or why are three generations of quarks and leptons with such a different mass scale. In order to discover physics beyond the SM (BSM), test the predictions of SM\footnote{One of the main purposes of LHC was to discover the Higgs Boson, which is predicted by the SM.} or measure its parameters, the Large Hadron Collider (LHC) (Section~\ref{sec:ch03}) was built. One of the most interesting open questions is where does the asymmetry between matter and anti-matter comes from; which can be answered through the study of single-top quark polarisation [Ref¿?¿]. 
+
+%Intro-Versión 2:
+The elementary particles, their properties and their interactions, are described by the Standard Model (SM), a quantum field theory developed in the latter half of the 20$^{th}$ century~\cite{oerter2006theory}. It explains the Universe in terms of matter, made of fundamental particles called fermions (half-integer spin particles), and the fundamental forces that govern the interactions between these particles, transmitted by another set of particles called bosons (integer spin particles). It provides a unified picture of three fundamental forces: Electromagnetism, the Weak force, and the Strong force. In addition, it provides an explanation for how particle masses are created through the Higgs mechanism. The SM is very successful in giving account of most of the observed phenomena at the subatomic frontier of physics. It has been tested in many experiments in the last decades and has also predicted the existence of some particles (the quarks, the gluon, and the $W$, $Z$ and Higgs bosons) before their detection.
+%Sería interesante poner alguna cita que sostenga el "has been tested in many experiments".
+
+Nevertheless, despite this success, there are still some open questions in Particle Physics that suggest that the SM is not the most complete theory. It neither describes gravity, neutrino masses, dark energy, dark matter nor matter-antimatter asymmetry (baryogenesis). Today the Universe contains mostly matter over anti-matter in its baryonic\footnote{Nearly all matter that may be encountered or experienced in everyday life is baryonic matter (which includes atoms of any kind).} component, but the SM predicts that matter and antimatter should have been created in equal amounts and so far there is no mechanism able to explain such a predominance of matter over antimatter. This baryon asymmetry is one of the greatest mysteries in physics~\cite{Canetti:2012zc} and it is understood through the so-called charge conjugation-parity (CP) violation mechanism. This discrete symmetry of nature relates the rates of particle transitions to antiparticle transitions and it is the combined operation of two individual symmetries: The charge conjugation (C), which turns a particle into its antiparticle, and the parity (P), which creates a mirror image of a physical system. If CP is conserved, the rate for a particular decay would be the same as for the related antiparticle decay. Despite the observations of violation of CP in the weak sector~\cite{Christenson:1964fg}, there are not enough sources of CP violation to explain the observed matter-antimatter asymmetry in the Universe. One potential new source of CP violation may be in the top-quark sector, more specifically in the anomalous couplings of the $Wtb$ vertex, as will be discussed in Section~\ref{subsec:Wtb}.
+
+%One potential new source of $\mathcal{CP}$ violation is in the top quark sector (Section~\ref{subsec:Wtb}); measurements of the $A^{N}_{FB}$ asymmetry (Section \ref{subsec:PolAsym}) may have the key to find imaginary phases in the $Wtb$ vertex Lagrangian, which would imply $\mathcal{CP}$ violation~\cite{Aguilar-Saavedra:2014eqa}.
+
+In this dissertation, the $t$-channel single-top-quark production at the Large Hadron Collider (LHC) (Section~\ref{subsec:LHC}) has been studied using a set of Monte Carlo (MC) simulated event samples produced for the t-channel signal and for all the SM processes, all of
+them generated with a centre-of-mass energy of $13$~TeV and normalised to an integrated luminosity of $36.1$~pb$^{-1}$. This luminosity was recorded by the ATLAS experiment in 2015 and 2016. 
+%.., either .. simulated,..
+The main goal of this work is to perform a statistical optimisation of the criteria to select a signal sample enriched in $t$-channel single-top-quark events that will be used in the measurements of polarisation observables by the ATLAS experiment during Run II. This requires the establishment of a set of kinematic cuts that optimise the event selection, i.e. boundaries that enhance the statistical significance and the signal to background ratio ($S/B$). This work is motivated by the fact that, when produced in $t$-channel, the top quark has a large degree of polarisation in the direction of the light-flavour quark momentum~\cite{Mahlon:1996pn}, which allows us to measure asymmetries which are related to CP violation in the $Wtb$-vertex Lagrangian (Section~\ref{sec:ch02}). 
+%Data sample enriched in single top t-channel events = After the selection, the remaining data has much more (relative amount, i.e. compared to the total events) single-top t-channel events than the original sample.
+
+The theoretical framework regarding the $Wtb$ vertex and the polarisation of the top quark is detailed in Section~\ref{sec:ch02}. The ATLAS experiment, in which this master thesis is contextualised is introduced in Section~\ref{sec:ch03}. Section~\ref{sec:ch04} describews the set of MC samples used as well as the preselection requirements. In Section~\ref{sec:ch05} is explained the methodology followed in order to define the optimised selection and the final results. Finally, the conclusions are summarized in Section~\ref{sec:conclusions}.
+
+%Particle accelerators are the only source of polarised top quarks \cite{AguilarSaavedra:2010nx}; in LHC top quarks are produced with high polarisation\footnote{Defined, along some axis, as twice the expectation value of the spin in that axis.} in the direction of the spectator quark in the top mass rest frame. The small integrated luminosity and the large backgrounds did not allowed Tevatron to test this prediction about polarisation but in the LHC the situation is further much better. The first measurement of the top quark polarisation in the direction of the spectator quark was presented by the CMS collaboration~\cite{Mahlon:1999gz}, $P=0.82 \pm 0.12$ (stat) $\pm 0.32$ (sys), corresponding to $\sqrt{s}=8$ TeV.
+
+ %(Continuar). 
+ %( comentar el estado actual de las medidas de polarisación del top y acoplos anómales a 7 TeV, 8 TeV a partir de los datos de CMS y ATLAS)
+ 
+
+
+
+
+
+%Brainstorm of this to write
+%\begin{itemize}
+%\item Estado actual de las medidasmpolarisación del top y acoplos anómales a 7 TeV, 8 TeV a partir de los datos de CMS y ATLAS
+
+
+%\item The used events are to have at least one electron, a $b$-jet, a light jet and large missing transverse momentum ($p_T^{miss}$). In order to increase the signal to background ratio ($S/B$), we need to apply stringent selection criteria to discriminate the signal, composed by $t$-channel single tops events, from the background. It is necessary to keep in mind that this cannot be done at any price and that the conditions (hereinafter named \textit{cuts}) that give great $S/B$ ratios could exclude too many events; which would imply a loss of statistical significance.
+%\end{itemize}
+
+
+
+%De interes: https://www.sharelatex.com/learn/Hyperlinks
+%To study the $Wtb$ vertex structure (Section~\ref{sec:ch02}), top-quark and $W$-boson polarisation observables are measured. The analysed dataset of simulated events correspond to an integrated luminosity of $35$ fb$^{-1}$ recorded at the ATLAS detector of the LHC during Run II at a center of mass energy of $13$ TeV. 
+
+
+
