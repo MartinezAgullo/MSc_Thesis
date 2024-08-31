@@ -1,0 +1,9 @@
+# Master Thesis: Optimisation of Selection Criteria of t-Channel Single-Top-Quark Events at √s = 13 TeV for Studies of Anomalous Couplings in the Wtb Vertex
+
+The top-quark is the heaviest known fundamental particle, and probing its couplings with the other fundamental particles may open a window to physics beyond the Standard Model. Single top-quark production provides a unique way to study the coupling between the top-quark, the $W$-boson, and the $b$-quark, since it involves the $Wtb$ vertex in both production and decay.
+
+The $Wtb$ vertex structure has been explored through the measurement of top-quark and $W$-boson polarisation observables using $t$-channel single top-quark events produced in proton-proton collisions during LHC Run I. The most recent limits on anomalous couplings in the $Wtb$ vertex from the ATLAS and CMS experiments are reviewed.
+
+Comprehensive studies of the $t$-channel selection requirements have been performed using Monte Carlo samples of signal and background events produced at $\sqrt{s}=13$ TeV and normalised to an integrated luminosity of 36.1 pb$^{-1}$. Starting from events containing one isolated lepton, large missing transverse momentum, and exactly two jets, one being $b$-tagged, stringent selection requirements are proposed to discriminate $t$-channel single-top events from the background contributions. These selection requirements have been designed based on a statistical optimisation and regardless of kinematic properties of the top decay products that could potentially bias early measurements of top-quark polarisation in Run II.
+
+This Markdown text is ready to be pasted into a Markdown document. It preserves mathematical notation using LaTeX syntax for inline equations.
